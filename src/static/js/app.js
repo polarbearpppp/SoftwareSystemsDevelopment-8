@@ -108,8 +108,8 @@ function AddItemForm({ onNewItem }) {
                         disabled={!newItem.length}
                         className={submitting ? 'disabled' : ''}
                         style={{
-                            background: 'linear-gradient(to right, violet, indigo, blue, green,orange, red)',
-                            WebkitBackgroundClip: 'text',
+                            background: 'linear-gradient(to right, violet, indigo, blue, green, orange, red)',
+                            color: 'black',
                         }}
                     >
                         {submitting ? 'Adding...' : 'Add Item'}
