@@ -44,7 +44,7 @@ async function getItems() {
             acc(
                 rows.map(item =>
                     Object.assign({}, item, {
-                        completed: item.complated,
+                        completed: item.completed,
                     }),
                 ),
             );
