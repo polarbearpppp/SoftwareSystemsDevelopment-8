@@ -1,0 +1,21 @@
+/* src/assets/fonts/fonts.css */
+@font-face {
+    font-family: 'thaifonts';
+    src: url('./2005_iannnnnJPG.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'kanitBold';
+    src: url('./Kanit-Bold.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'kanitLight';
+    src: url('./Kanit-Light.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'kanitMedium';
+    src: url('./Kanit-Medium.ttf') format('truetype');
+  }
+  
+  
