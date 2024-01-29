@@ -90,8 +90,8 @@ function AddItemForm({ onNewItem }) {
     };
 
     return (
-        <div class="d-flex align-items-center">
-            <p class="text-size">Hello</p>
+        <div class="d-flex flex-column align-items-center">
+            <p class="text-size text-center mb-4">ToDo App by Sila Lertbanjongngam :D</p>
         <Form onSubmit={submitNewItem}>
             <InputGroup className="mb-3">
                 <Form.Control
