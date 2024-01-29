@@ -110,6 +110,7 @@ function AddItemForm({ onNewItem }) {
                         style={{
                             background: 'linear-gradient(to right, violet, indigo, blue, green, orange, red)',
                             color: 'black',
+                            fontWeight: 'bold',
                         }}
                     >
                         {submitting ? 'Adding...' : 'Add Item'}
