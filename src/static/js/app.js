@@ -90,7 +90,7 @@ function AddItemForm({ onNewItem }) {
     };
 
     return (
-        <div className="position-relative">
+        <div class="position-relative">
             <p className="text-size">Hello</p>
         <Form onSubmit={submitNewItem}>
             <InputGroup className="mb-3">
