@@ -39,11 +39,11 @@ button:focus {
 }
 
 .text-size{
-    font-size: 40px;
+    font-size: 20px;
     font-weight: bold;
-    padding-top: 4rem;
+    padding-top: 2rem;
     font-family: 'kanitBold';
-    background: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+    background: linear-gradient(to right, violet, indigo, blue, green, red);
     -webkit-background-clip: text;
     color: transparent;
 }
