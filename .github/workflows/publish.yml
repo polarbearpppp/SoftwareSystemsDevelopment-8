@@ -18,7 +18,7 @@ jobs:
         uses: docker/login-action@v3
         with:
           username: polarbearp
-          password: dckr_pat_KQsUwfTlHWX6l1LRH3RAnCFZBI4
+          password: docker_P@pong4869
       -
         name: Build and push
         uses: docker/build-push-action@v5
