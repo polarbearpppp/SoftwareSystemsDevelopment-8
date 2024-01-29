@@ -90,7 +90,7 @@ function AddItemForm({ onNewItem }) {
     };
 
     return (
-        <div class="position-relative">
+        <div class="d-flex align-items-center">
             <p className="text-size">Hello</p>
         <Form onSubmit={submitNewItem}>
             <InputGroup className="mb-3">

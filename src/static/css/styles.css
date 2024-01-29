@@ -39,9 +39,11 @@ button:focus {
 }
 
 .text-size{
-    font-size: 22px;
+    font-size: 40px;
     font-weight: bold;
     padding-top: 4rem;
     font-family: 'kanitBold';
-    color: rgb(255,255,255);
+    background: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    color: transparent;
 }
