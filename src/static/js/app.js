@@ -90,6 +90,8 @@ function AddItemForm({ onNewItem }) {
     };
 
     return (
+        <div>
+            hello
         <Form onSubmit={submitNewItem}>
             <InputGroup className="mb-3">
                 <Form.Control
@@ -111,6 +113,7 @@ function AddItemForm({ onNewItem }) {
                 </InputGroup.Append>
             </InputGroup>
         </Form>
+        </div>
     );
 }
 
